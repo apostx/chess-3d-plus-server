@@ -1,0 +1,33 @@
+{
+    "name": "chess-3d-plus",
+    "description": "Chess 3D+",
+    "version": "0.0.1",
+    "author": "apostx",
+    "license": "MIT",
+    "repository": "github:apostx/chess-3d-plus-server",
+    "scripts": {
+        "start": "node ./index.js",
+        "lint": "eslint ./index.js \"./lib/**/*.js\""
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "ws": "^7.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.11.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "files": [
+        "LICENSE",
+        "Readme.md",
+        "index.js",
+        "lib/"
+    ]
+}

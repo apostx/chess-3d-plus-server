@@ -1,0 +1,19 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "indent": ["error", 4, {"SwitchCase": 1}],
+        "semi": ["error", "always"],
+        "comma-dangle": ["error", "only-multiline"],
+        "object-curly-spacing": ["error", "never"],
+        "switch-colon-spacing": ["error", {"after": true, "before": false}],
+        "space-before-function-paren": ["error", "never"]
+    }
+}
